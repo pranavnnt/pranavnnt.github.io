@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦾</text></svg>">
 </head>
 
 <body>
@@ -22,13 +22,14 @@
                 <p style="text-align:center; padding-bottom: 1em;">
                 <name>Pranav Thakkar</name>
                 </p>
-              <p>Hi! I am a third-year PhD student at <a target="_blank" href="https://www.cornell.edu/">Cornell University</a>, where I am advised by <a target="_blank" href="http://www.tapomayukh.com/">Prof. Tapomayukh Bhattacharjee</a> in the <a target="_blank" href="https://emprise.cs.cornell.edu">EmPRISE Lab</a>. My research focuses on using robots to dress people with mobility limitations, with everyday clothing. I am interested in haptic perception, deformable object manipulation, and safe human-robot interaction. 
-              </p>
+              <p>Hi! I am a PhD student in Mechanical Engineering at <a target="_blank" href="https://www.cornell.edu/">Cornell University</a>. I work with <a target="_blank" href="https://kuanfang.github.io/">Prof. Kuan Fang</a> on learning visuo-haptic dexterous manipulation for everyday tasks. 
+                I also collaborate with <a target="_blank" href="http://www.tapomayukh.com/">Prof. Tapomayukh Bhattacharjee</a> on creating physical human-robot interaction systems for assistive dressing and on large-scale multimodal haptic perception. 
+              </p>  
               <p>
-                Previously, I graduated from <a target="_blank" href="https://www.iitb.ac.in">the Indian Institute of Technology, Bombay</a> where I worked with <a target="_blank" href="https://www.sc.iitb.ac.in/~leena/">Prof. Leena Vachhani</a> and <a target="_blank" href="https://www.aero.iitb.ac.in/~arya/">Prof. Hemendra Arya</a>. At IIT Bombay, I worked on robust state estimation techniques for ground robots with access to only bearing measurements. 
-              </p>
-              <p>  
-              I was also a research engineer at <a target="_blank" href="https://www.honda.co.jp/RandD/hgsc/">Honda R&D</a> in Wako, Japan, where I worked on robust robot perception and mapping. 
+              I have spent time at <a target="_blank" href="https://amazon.jobs/content/en/teams/ftr/amazon-robotics">Amazon Robotics</a> working on contact-rich manipulation, and at <a target="_blank" href="https://www.honda.co.jp/RandD/hgsc/">Honda R&D</a> on robust multimodal perception and mapping in semi-structured environments. 
+            </p>
+            <p>
+                Previously, I graduated from <a target="_blank" href="https://www.iitb.ac.in">the Indian Institute of Technology, Bombay</a> where I worked with <a target="_blank" href="https://www.sc.iitb.ac.in/~leena/">Prof. Leena Vachhani</a> and <a target="_blank" href="https://www.aero.iitb.ac.in/~arya/">Prof. Hemendra Arya</a> on creating robust state and parameter estimators. 
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="mailto:pranavnnt@gmail.com">Email</a> &nbsp/&nbsp
@@ -42,24 +43,68 @@
             </td>
           </tr>
         </tbody></table>
-<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                My research interests lie in robust perception and safe autonomy. I currently work on developing real-time multi-sensor odometry and mapping algorithms, tailored towards their respective use case. 
-                With regards to safety, I want to use formal methods and concepts from nonlinear system theory to make learned models used for robot vision and navigation, more reliable in their behaviour.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>    -->
         <h2 style="padding-left: 1em; font-weight: normal;">Research</h2>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!-- CLAMP -->
+          <!-- RoboDress -->
+          <tr style="background-color:#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='files/dressing.gif' width="180">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a target="_blank" href="#">
+                <papertitle>Long-horizon Dressing with T-shirts using Learned Cloth Bunching and Force-limited Diffusion Policies</papertitle>
+              </a>
+              <br>
+              <strong>Pranav N. Thakkar</strong>,
+              <a target="_blank" href="https://www.linkedin.com/in/qiandao-liu-11a3682b3">Qiandao Liu</a>,
+              <a target="_blank" href="https://www.linkedin.com/in/rolando-rodr%C3%ADguez-63575a152">Rolando Rodriguez</a>,
+              <a target="_blank" href="https://www.linkedin.com/in/keyaaggarwal">Keya Aggarwal</a>,
+              <a target="_blank" href="https://leumasnij.github.io/">Shengmiao Jin</a>,
+              <a target="_blank" href="http://tapomayukh.com/">Tapomayukh Bhattacharjee</a>
+              <br>
+              <em>In Preparation</em>
+            </td>
+          </tr>
+
+          <!-- PrioriTouch -->
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='files/sorting_exp_cropped.png' width="180" height="145">
+                <img src='files/prioritouch.gif' width="180">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a target="_blank" href="https://emprise.cs.cornell.edu/prioritouch">
+                <papertitle>PrioriTouch: Adapting to User Contact Preferences for Whole-Arm Physical Human-Robot Interaction</papertitle>
+              </a>
+              <br>
+              <a target="_blank" href="https://www.cs.cornell.edu/~madan/">Rishabh Madan</a>,
+              <a target="_blank" href="https://www.jiaweilin.com/">Jiawei Lin</a>,
+              <a target="_blank" href="https://www.linkedin.com/in/mahika-goel-2bbb201a5">Mahika Goel</a>,
+              <a target="_blank" href="https://ieeexplore.ieee.org/author/470425448753162">Angchen Xie</a>,
+              <a target="_blank" href="https://www.linkedin.com/in/xiaoyuliang14">Xiaoyu Liang</a>,
+              <br>
+              <a target="_blank" href="https://www.linkedin.com/in/marcuslee23">Marcus Lee</a>,
+              <a target="_blank" href="https://www.linkedin.com/in/justin-j-guo">Justin Guo</a>,
+              <strong>Pranav N. Thakkar</strong>,
+              <a target="_blank" href="https://rohanb2018.github.io/">Rohan Banerjee</a>,
+              <br>
+              <a target="_blank" href="https://www.josebarreiros.com/">Jose Barreiros</a>,
+              <a target="_blank" href="https://www.tri.global/about-us/dr-katherine-tsui">Kate Tsui</a>,
+              <a target="_blank" href="https://tomsilver.github.io/">Tom Silver</a>,
+              <a target="_blank" href="http://tapomayukh.com/">Tapomayukh Bhattacharjee</a>
+              <br>
+              <em>Conference on Robot Learning (CoRL)</em>, 2025
+            </td>
+          </tr>
+
+          <!-- CLAMP -->
+          <tr style="background-color:#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='files/clamp_retrieval.gif' width="180">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -84,7 +129,6 @@
               <a target="_blank" href="https://sites.google.com/site/tapomayukh">Tapomayukh Bhattacharjee</a>
               <br>
               <em>Conference on Robot Learning (CoRL)</em>, 2025
-              <p>We collect in-the-wild multimodal haptic data at scale to create visuo-haptic perception models that enable real-world robot manipulation.</p>
             </td>
           </tr>
 
@@ -92,7 +136,7 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='files/grace_fig1_2.png' width="180" height="155">
+                <img src='files/grace_handover.gif' width="135" height="116" style="display:block;margin-left:auto">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -111,16 +155,15 @@
               <a target="_blank" href="https://www.tapomayukh.com/">Tapomayukh Bhattacharjee</a>
               <br>
               <em>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</em>, 2025
-              <p>We introduce a method to infer a users’ functional range of motion from occupational therapy assessments, to enable personalized robot-assisted caregiving.</p>
             </td>
           </tr>
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px 20px 10px 20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='files/loci.png' width="180" height="155">
+                <img src='files/loci.png' width="101" height="87" style="display:block;margin-left:auto">
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:20px 20px 10px 20px;width:75%;vertical-align:top">
               <a target="_blank" href="https://ieeexplore.ieee.org/document/9483124/">
                 <papertitle>Unobservable Spaces for Bearing-Only Localization</papertitle>
               </a>
@@ -130,20 +173,16 @@
               <a target="_blank" href="https://www.sc.iitb.ac.in/~leena/">Leena Vachhani</a>
               <br>
               <em>American Control Conference</em>, 2021
-              <p></p>
-              <p>
-                We discuss the structure of unobservable spaces for a family of joint state & parameter localization problems, for a ground robot with access to only bearing measurements.
-              </p>
             </td>
           </tr>
-          
+
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:top">
+            <td style="padding:10px 20px 10px 20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='files/covid_SIR_model.PNG' width="180" height="155" height="180">
+                <img src='files/covid_SIR_model.PNG' width="135" height="116" style="display:block;margin-left:auto">
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:10px 20px;width:75%;vertical-align:middle">
               <a target="_blank" href="https://arxiv.org/abs/2007.14392">
                 <papertitle> An India-specific Compartmental Model for Covid-19: Projections and Intervention Strategies by Incorporating Geographical, Infrastructural and Response <br> Heterogeneity</papertitle>
               </a>
@@ -156,19 +195,15 @@
               <a target="_blank" href="https://www.phy.iitb.ac.in/en/content/sai-vinjanampathy">Sai Vinjanampathy</a>
               <br>
               <em>arXiv</em>, 2020
-              <p></p>
-              <p>
-                We develop an India-specific compartmental model that incorporates regional healthcare capacity and mobility to project COVID-19 spread and assess intervention strategies.
-              </p>
             </td>
-          </tr>		  
+          </tr>
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:10px 20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='files/panoramic_dataset.PNG' width="160" height="110">
+                <img src='files/panoramic_dataset.PNG' width="120" height="83" style="display:block;margin-left:auto">
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:10px 20px;width:75%;vertical-align:middle">
               <a target="_blank" href="https://arxiv.org/abs/1912.02910">
                 <papertitle>State Estimation for Vision-based Localization under Uncertain Conditions</papertitle>
               </a>
@@ -178,22 +213,17 @@
               <a target="_blank" href="https://www.sc.iitb.ac.in/~leena/">Leena Vachhani</a>
               <br>
               <em>arXiv</em>, 2019
-              <p></p>
-              <p>
-                We show that a class of tunable nonlinear Kalman filters work well towards robust state estimation without having to re-estimate landmark locations.
-              </p>
               <br>
-              <small> *equal contribution</small>
             </td>
           </tr>
-          
+
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:10px 20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='files/Pie.PNG' width="180" height="130">
+                <img src='files/Pie.PNG' width="135" height="98" style="display:block;margin-left:auto">
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:10px 20px;width:75%;vertical-align:middle">
               <a target="_blank" href="https://dl.acm.org/doi/10.1145/3352593.3352650">
                 <papertitle>Optimal Landmark Selection for Bearing-Only Navigation</papertitle>
               </a>
@@ -203,7 +233,6 @@
               <br>
               <em>Advances in Robotics</em>, 2019  
               <br>				
-              <p> A comparative analysis of heuristics-based algorithms that select a subset of landmarks for robot navigation with access to only bearing measurements.</p>
             </td>
           </tr>		
         </tbody></table>
